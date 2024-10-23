@@ -3,6 +3,9 @@ import image from "./assets/bg-image.jpeg";
 import dvm from "./assets/DVM Logo.png";
 import lockedIn from "./assets/locked-in.svg";
 import DevelopersModal from "./DevelopersModal";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-KC4R0EYVH9");
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
