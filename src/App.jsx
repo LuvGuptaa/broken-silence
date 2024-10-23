@@ -20,7 +20,7 @@ const App = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90 z-10"></div>
       <div className="relative z-20 flex flex-col justify-between min-h-screen">
         <nav className="flex justify-between items-center p-4 px-8">
-          <div className="">
+          <div className=" scale-90 lg:scale-100">
             <img src={dvm} alt="DVM" height={60} width={60} />
             <a href="https://bits-dvm.org/" target="/blank">
               <div className="text-white cursor-pointer text-lg font-bold mt-1 flex justify-between">
