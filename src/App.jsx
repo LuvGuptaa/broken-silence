@@ -32,7 +32,7 @@ const App = () => {
           </div>
 
           <button
-            class="relative items-center justify-start inline-block px-7 py-4 overflow-hidden font-bold rounded-lg group"
+            class="relative items-center justify-start inline-block px-5 py-3 lg:px-7 lg:py-4 overflow-hidden font-bold rounded-lg group"
             onClick={() => setShowModal(!showModal)}
           >
             <span class="w-40 h-40 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
@@ -50,7 +50,7 @@ const App = () => {
             <a
               href="https://drive.google.com/uc?export=download&id=1ocrNznFWunxSHt-TBIlGA_hjY_ryxLg8"
               target="blank"
-              class="relative items-center justify-start inline-block px-7 py-4 overflow-hidden font-bold rounded-lg group"
+              class="relative items-center justify-start inline-block px-5 py-3 lg:px-7 lg:py-4 overflow-hidden font-bold rounded-lg group"
             >
               <span class="w-40 h-40 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
               <span class="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
@@ -62,7 +62,7 @@ const App = () => {
             <a
               href="https://drive.google.com/uc?export=download&id=1ocrNznFWunxSHt-TBIlGA_hjY_ryxLg8"
               target="blank"
-              class="relative items-center justify-start inline-block px-7 py-4 overflow-hidden font-bold rounded-lg group"
+              class="relative items-center justify-start inline-block px-5 py-3 lg:px-7 lg:py-4 overflow-hidden font-bold rounded-lg group"
             >
               <span class="w-40 h-40 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
               <span class="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
