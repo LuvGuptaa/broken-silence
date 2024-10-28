@@ -50,10 +50,11 @@ const DevelopersModal = ({ onClose }) => {
         <button
           className="text-white absolute top-4 right-4 font-bold outline-[rgb(236, 232, 225) solid 1px] outline-offset-4 bg-[black] border border-black rounded-lg px-4 py-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-300"
           onClick={onClose}
+          id="closeButton"
         >
           Close
         </button>
-        <h2 className="text-4xl font-bold text-center mb-6">Developers</h2>
+        <h2 className="text-4xl font-bold text-center mb-6" id="devpageHeading">Developers</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {developers.map((dev, index) => (
             <div

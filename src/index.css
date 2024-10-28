@@ -13,4 +13,13 @@
   #modal-container {
     top: 290px;
   }
+
+  #closeButton {
+    top: 40px;
+  }
+
+  #devpageHeading {
+    font-size: 30px;
+    padding-top: 3.5rem;
+  }
 }
