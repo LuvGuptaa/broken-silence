@@ -63,7 +63,7 @@ const App = () => {
               <span class="absolute inset-0 border-2 border-white rounded-lg"></span>
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1ocrNznFWunxSHt-TBIlGA_hjY_ryxLg8"
+              href="https://docs.google.com/document/d/189HkN6AWS_6vgIZqIGeg5DOj-BexUFzgyhTXZdZGzWY/edit?tab=t.0"
               target="blank"
               class="relative items-center justify-start inline-block px-5 py-3 lg:px-7 lg:py-4 overflow-hidden font-bold rounded-lg group"
             >
