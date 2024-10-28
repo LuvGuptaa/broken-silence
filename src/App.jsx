@@ -24,8 +24,8 @@ const App = () => {
       <div className="relative z-20 flex flex-col justify-between min-h-screen">
         <nav className="flex justify-between items-center p-4 px-8">
           <div className=" scale-75 lg:scale-100">
-            <img src={dvm} alt="DVM" height={60} width={60} />
             <a href="https://bits-dvm.org/" target="/blank">
+              <img src={dvm} alt="DVM" height={60} width={60} />
               <div className="text-white cursor-pointer text-lg font-bold mt-1 flex justify-between">
                 <span>D</span>
                 <span>V</span>
