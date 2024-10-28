@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Shiven from "./assets/ShivenSharma.jpg";
 import Dhruv from "./assets/DhruvGupta.jpg";
@@ -45,7 +46,7 @@ const developers = [
 const DevelopersModal = ({ onClose }) => {
   return (
     <div className="absolute inset-0 bg-black/80 z-30 flex justify-center items-center">
-      <div className="relative bg-white rounded-lg shadow-lg p-8 max-w-5xl w-full  sm:h-full lg:h-fit">
+      <div className="relative bg-white rounded-lg shadow-lg p-8 max-w-5xl w-full  sm:h-full lg:h-fit" id="modal-container">
         <button
           className="text-white absolute top-4 right-4 font-bold outline-[rgb(236, 232, 225) solid 1px] outline-offset-4 bg-[black] border border-black rounded-lg px-4 py-2 hover:bg-white hover:text-black transition-colors ease-in-out duration-300"
           onClick={onClose}
